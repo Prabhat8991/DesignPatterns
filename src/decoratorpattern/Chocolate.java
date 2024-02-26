@@ -1,8 +1,8 @@
 package decoratorpattern;
 
-public class ChocolateDecorator extends ShakeDecorator {
+public class Chocolate extends ShakeDecorator {
 
-    ChocolateDecorator(Shake shake) {
+    Chocolate(Shake shake) {
         this.shake = shake;
     }
 
